@@ -1,0 +1,7 @@
+- name: Deploy AWS Infrastructure
+  hosts: all
+  become: true
+  roles:
+    - webserver
+    - database
+

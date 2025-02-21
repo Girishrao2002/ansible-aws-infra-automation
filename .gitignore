@@ -1,0 +1,6 @@
+*.retry
+*.log
+.aws/
+.ssh/
+vault_pass.txt
+
